@@ -1,0 +1,35 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreatePostsRelatedTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('posts_related', function (Blueprint $table) {
+            
+            $table->bigInteger("post_id")->unsigned();
+            $table->bigInteger("post_related_id");
+            $table->foreign("post_id")->references("id")->on("posts")->onDelete("cascade");
+            $table->primary(["post_id","post_related_id"]);
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('posts_related');
+    }
+}

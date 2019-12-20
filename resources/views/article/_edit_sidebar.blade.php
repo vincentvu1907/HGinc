@@ -1,0 +1,11 @@
+@include("article.edit_sidebar._submit")
+<br>
+@include("article.edit_sidebar._tag")
+<br>
+@include("article.edit_sidebar._expert")
+<br>
+@include("article.edit_sidebar._thumbnail")
+<br>
+@include("article.edit_sidebar._related")
+<br>
+@include("article.edit_sidebar.product")
