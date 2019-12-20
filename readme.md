@@ -6,6 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
+<h1 align="center">House Garden Ideas</h1>
+<p align="center">
+	Welcome : https://housegardenideas.com
+</p>
+<p align="center">
+	<a href="https://housegardenideas.com">
+		<img src="https://housegardenideas.com/images/logo-first.png" alt="housegardenideas-logo" width="350px">
+	</a>
+</p>
+<p align="center">
+	"Discover House & Garden online, your first stop for the latest interior design ideas, beautiful lifestyle inspiration and delicious food recipes"
+</p>
 
 ## About Laravel
 
